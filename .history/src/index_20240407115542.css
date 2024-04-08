@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes move-background {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
