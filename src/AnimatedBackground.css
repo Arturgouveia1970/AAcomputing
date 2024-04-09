@@ -1,7 +1,0 @@
-.video-container {
-  @apply fixed inset-0 z-0 object-cover;
-}
-
-.video-overlay {
-  @apply absolute inset-0 bg-black opacity-50;
-}

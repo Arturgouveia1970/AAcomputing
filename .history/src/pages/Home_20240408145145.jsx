@@ -1,0 +1,24 @@
+import Hero from "../components/Hero"
+import About from "./About"
+import { Map } from "./StaticMap";
+import Portfolio from "./Portfolio"
+import Services from "./Services";
+
+function Home() {
+  const lat = YOUR_LATITUDE;
+  const lng = YOUR_LONGITUDE;
+  const zoom = 15;
+  const size = 600;
+  const mapType = 'roadmap';
+  return (
+    <>
+      <Hero />
+      <About />
+      <Services />
+      <Portfolio />
+      <Map />
+    </>
+  )
+}
+
+export default Home
