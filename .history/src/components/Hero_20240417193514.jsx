@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="p-1 flex flex-col items-center mx-auto justify-center bg-opacity-0 font-['Nunito']">
       <h1 className="mt-20 pt-20 w-full text-center text-lg font-semibold">Serviços especializados de desenvolvimento de software em Angola</h1>
       <br />
-      <div className="p-5 rounded-lg opacity-100">
+      <div className="p-5 rounded-lg opacity-0">
         <p>
           <b>AAcomputing</b> é uma empresa especializada no desenvolvimento de software localizada no bairro da Maianga, em Luanda, que oferece
           uma variedade de serviços para ajudar negócios a prosperar no mundo digital.

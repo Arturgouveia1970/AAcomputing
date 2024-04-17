@@ -110,12 +110,12 @@ const StaticMap = ({ zoom }) => {
   return (
     <LoadScript
       googleMapsApiKey="AIzaSyBEUaXPNCH0IhZwKbde1v-CpeKvNyM9w0E"
+      c
     >
       <GoogleMap
         mapContainerStyle={{
           height: '500px',
-          width: '100%',
-          opacity: '100'
+          width: '100%'
         }}
         options={{
           zoom,

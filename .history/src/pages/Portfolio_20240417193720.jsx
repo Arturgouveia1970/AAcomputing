@@ -4,7 +4,7 @@ function Portfolio() {
   return (
     <Element name="portfolio" className="items-center flex flex-col bg-opacity-100 p-1 pb-2 mb-10 font-['Nunito'] mt-10">
       <h1 className="text-center text-xl font-bold leading-4 mx-8">Explore nosso portfólio de projetos de desenvolvimento web</h1>
-      <div className="p-10 leading-7 opacity-100">
+      <div className="p-10 leading-7 opacity-10">
         <p>
           Na AAcomputing, temos orgulho de nossa capacidade de criar 
           sites e aplicativos inovadores e fáceis de usar para empresas

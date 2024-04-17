@@ -115,7 +115,7 @@ const StaticMap = ({ zoom }) => {
         mapContainerStyle={{
           height: '500px',
           width: '100%',
-          opacity: '100'
+          opci
         }}
         options={{
           zoom,
