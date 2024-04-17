@@ -2,7 +2,6 @@
 import  React, {useState, useEffect } from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
-// eslint-disable-next-line react/prop-types
 const StaticMap = ({ zoom }) => {
   const [currentLocation, setCurrentLocation] = useState(null);
 

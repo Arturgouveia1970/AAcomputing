@@ -1,8 +1,34 @@
-// eslint-disable-next-line no-unused-vars
 import  React, {useState, useEffect } from 'react';
+// import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+
+// const StaticMap = ({ lat, lng, zoom }) => {
+//   return (
+//     <LoadScript
+//       googleMapsApiKey="AIzaSyBEUaXPNCH0IhZwKbde1v-CpeKvNyM9w0E"
+//     >
+//       <GoogleMap
+//         mapContainerStyle={{
+//           height: '500px',
+//           width: '100%'
+//         }}
+//         options={{
+//           zoom,
+//           center: {
+//             lat,
+//             lng
+//           }
+//         }}
+//       >
+//         <Marker position={{ lat: -8.830679, lng: 13.228166 }} />
+//       </GoogleMap>
+//     </LoadScript>
+//   );
+// };
+
+// export default StaticMap;
+
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
-// eslint-disable-next-line react/prop-types
 const StaticMap = ({ zoom }) => {
   const [currentLocation, setCurrentLocation] = useState(null);
 
