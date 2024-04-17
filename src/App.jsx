@@ -10,13 +10,12 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Services from './pages/Services';
 import Footer1 from './components/Footer';
-// import './AnimatedBackground.css';
-// import BackgroundVideo from './components/BackgroundVideo';
+import BackgroundVideo from './components/BackgroundVideo';
 
 function App() { 
   return (
     <Router>
-      {/* <BackgroundVideo /> */}
+      <BackgroundVideo />
       <div className="relative">
         <Header />
         <Routes>
