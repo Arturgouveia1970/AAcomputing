@@ -2,7 +2,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 export default function Hero() {
   return (
-    <div className="p-2 flex flex-col items-center mx-auto justify-center bg-opacity-0 font-['apple-s-ystem'] md:mx-20 md:p-10">
+    <div className="p-2 flex flex-col items-center mx-auto justify-center bg-opacity-0 font-['"Fira Sans"'] md:mx-20 md:p-10">
       <h1 className="mt-20 pt-20 w-full text-center text-lg font-semibold md:text-2xl md:pt-30 lg:text-3xl">
         Serviços especializados de desenvolvimento de software em Angola
       </h1>

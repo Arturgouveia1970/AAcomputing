@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 
 function Portfolio() {
   return (
-    <Element name="portfolio" className="items-center flex flex-col bg-opacity-100 p-1 font-['apple-s-ystem'] mt-10 md:mx-20">
+    <Element name="portfolio" className="items-center flex flex-col bg-opacity-100 p-1 font-['Nunito'] mt-10 md:mx-20">
       <h1 className="text-center text-xl font-bold leading-4 mx-8">Explore nosso portfólio de projetos de desenvolvimento web</h1>
       <div className="p-10 leading-7 opacity-100">
         <p>

@@ -11,7 +11,7 @@ function Header() {
             className="text-sm mr-0 w-20 h-20 ml-4 sm:w-20 sm:h-20 lg:text-lg md:ml-20 md:w-32 md:h-auto"
             alt="AAcomputing Logo" 
           />
-          <span className="text-xl self-center whitespace-nowrap font-semibold dark:text-white font-['Nunito'] md:text-3xl">AAcomputing</span>
+          {/* <span className="text-xl self-center whitespace-nowrap font-semibold dark:text-white font-['Nunito'] md:text-3xl">AAcomputing</span> */}
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="font-mont mr-8 md:mr-20">

@@ -2,7 +2,7 @@ import { Element } from 'react-scroll';
 
 function About() {
   return (
-    <Element name="about" className="mt-10 mb-10 flex flex-col p-1 font-['apple-s-ystem'] scroll-smooth bg-opacity-60 md:mx-20">
+    <Element name="about" className="mt-10 mb-10 w-full flex flex-col p-1 font-['Nunito'] scroll-smooth bg-opacity-60 md:mx-20">
       <h1 className="w-full text-center text-lg font-semibold">Sobre AAcomputing</h1>
       <div className="p-5 opacity-100">
         <p>
