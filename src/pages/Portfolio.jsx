@@ -21,6 +21,9 @@ function Portfolio() {
           Explore nosso portfólio e veja como podemos ajudar a elevar 
           sua presença online hoje.
         </p>
+        <a href="https://aacomputing-blog.onrender.com">
+          <p className="text-xl text-center mt-2 font-semibold hover:underline">Visite o nosso Blog</p>
+        </a>
       </div> 
     </Element>
   )
